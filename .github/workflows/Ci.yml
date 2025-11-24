@@ -8,10 +8,10 @@ jobs:
 
     steps:
     - name: Récupération du code
-      uses: actions/checkout@v3
+      uses: actions/checkout
 
     - name: Installer Node
-      uses: actions/setup-node@v3
+      uses: actions/setup-node
       with:
         node-version: 18
 
