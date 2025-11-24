@@ -17,6 +17,7 @@ jobs:
 
     - name: Installation dépendances
       run: npm install
+      working-directory: .
 
     - name: Lancement des tests
       run: npm test || echo "Tests échoués"
